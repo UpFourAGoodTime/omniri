@@ -18,7 +18,7 @@
 
         home.file = {
 
-          "colors.kdl".text = ''
+          ".config/niri-stylix/colors.kdl".text = ''
             layout {
 
             focus-ring {
@@ -352,8 +352,8 @@
 
 
           // Load stylix colors + user overrides
-          include optional=true "~/user-config.kdl"
-          include optional=true "~/colors.kdl"
+          include optional=true "~/.config/niri-stylix/user-config.kdl"
+          include optional=true "~/.config/niri-stylix/colors.kdl"
         '';
       };
     };
