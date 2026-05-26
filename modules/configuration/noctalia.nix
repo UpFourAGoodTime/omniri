@@ -38,7 +38,7 @@
             {
               "settingsVersion": 59,
               "bar": {
-                "barType": "simple",
+                "barType": "floating",
                 "position": "top",
                 "monitors": [],
                 "density": "default",
@@ -83,7 +83,7 @@
                       "useCustomFont": false
                     },
                     {
-                      "colorizeIcons": false,
+                      "colorizeIcons": true,
                       "hideMode": "hidden",
                       "id": "ActiveWindow",
                       "maxWidth": 145,
@@ -114,7 +114,7 @@
                     {
                       "blacklist": [],
                       "chevronColor": "none",
-                      "colorizeIcons": false,
+                      "colorizeIcons": true,
                       "drawerEnabled": true,
                       "hidePassive": false,
                       "id": "Tray",
@@ -122,7 +122,7 @@
                     },
                     {
                       "characterCount": 2,
-                      "colorizeIcons": false,
+                      "colorizeIcons": true,
                       "emptyColor": "secondary",
                       "enableScrollWheel": true,
                       "focusedColor": "primary",
@@ -199,7 +199,7 @@
                     {
                       "colorizeSystemIcon": "none",
                       "customIconPath": "",
-                      "enableColorization": false,
+                      "enableColorization": true,
                       "icon": "rocket",
                       "iconColor": "none",
                       "id": "Launcher",
@@ -245,10 +245,10 @@
                 "allowPanelsOnScreenWithoutBar": true,
                 "showChangelogOnStartup": true,
                 "telemetryEnabled": false,
-                "enableLockScreenCountdown": true,
+                "enableLockScreenCountdown": false,
                 "lockScreenCountdownDuration": 10000,
                 "autoStartAuth": false,
-                "allowPasswordWithFprintd": false,
+                "allowPasswordWithFprintd": true,
                 "clockStyle": "custom",
                 "clockFormat": "hh\\nmm",
                 "passwordChars": false,
@@ -290,11 +290,11 @@
                 "tooltipsEnabled": true,
                 "scrollbarAlwaysVisible": true,
                 "boxBorderEnabled": true,
-                "panelBackgroundOpacity": 0.93,
-                "translucentWidgets": false,
+                "panelBackgroundOpacity": 0.72,
+                "translucentWidgets": true,
                 "panelsAttachedToBar": true,
                 "settingsPanelMode": "attached",
-                "settingsPanelSideBarCardStyle": false
+                "settingsPanelSideBarCardStyle": true
               },
               "location": {
                 "name": "Thayer, Missouri",
@@ -334,7 +334,7 @@
                 "directory": "${
                   builtins.unsafeDiscardStringContext
                     inputs.self.packages.${pkgs.stdenv.hostPlatform.system}.wallpapers
-                }/share/wallpapers/pb293788xdcqhv8yhjan3w238dw724fr-files/",
+                }/share/wallpapers",
                 "monitorDirectories": [],
                 "enableMultiMonitorDirectories": false,
                 "showHiddenFiles": false,
