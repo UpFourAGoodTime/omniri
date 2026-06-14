@@ -88,6 +88,10 @@
 
           prefer-no-csd
 
+          hotkey-overlay {
+              skip-at-startup
+          }
+
           xwayland-satellite {
           path "${lib.getExe pkgs.xwayland-satellite}"
           }
