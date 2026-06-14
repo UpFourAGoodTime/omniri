@@ -102,6 +102,14 @@
               draw-border-with-background false
           }
 
+          blur {
+              on
+              passes 3
+              offset 3
+              noise 0.02
+              saturation 1.5
+          }
+
           cursor {
               xcursor-theme "Bibata-Modern-Classic"
               xcursor-size 20
