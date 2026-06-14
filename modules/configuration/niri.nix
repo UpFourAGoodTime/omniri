@@ -224,6 +224,14 @@
 
           }
 
+          overview {
+              zoom 0.5
+
+              workspace-shadow {
+                 off
+              }
+          }
+
           layout {
 
           focus-ring {
