@@ -38,5 +38,15 @@
         self.homeModules.noctalia-stylix
         self.homeModules.alacritty-stylix
       ];
+
+      config = lib.mkMerge [
+        (lib.mkIf config.stylix.enable {
+          stylix.targets = {
+            alacritty.enable = false;
+          };
+        })
+
+      ];
+
     };
 }
