@@ -283,8 +283,8 @@
                 "smoothScrollEnabled": true
               },
               "ui": {
-                "fontDefault": "DejaVu Sans",
-                "fontFixed": "DejaVu Sans Mono",
+                "fontDefault": "System Default",
+                "fontFixed": "System Default",
                 "fontDefaultScale": 0.75,
                 "fontFixedScale": 1,
                 "tooltipsEnabled": true,
