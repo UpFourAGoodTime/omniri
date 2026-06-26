@@ -65,10 +65,10 @@
                 "widgets": {
                   "left": [
                     {
-                      "colorizeDistroLogo": true,
+                      "colorizeDistroLogo": false,
                       "colorizeSystemIcon": "none",
                       "customIconPath": "",
-                      "enableColorization": true,
+                      "enableColorization": false,
                       "icon": "noctalia",
                       "id": "ControlCenter",
                       "useDistroLogo": true
