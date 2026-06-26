@@ -5,6 +5,8 @@
 {
   flake.nixosModules.default =
     {
+      config,
+      lib,
       ...
     }:
     {
@@ -12,10 +14,22 @@
         self.nixosModules.niri
         self.nixosModules.plymouth
       ];
+
+      config = lib.mkMerge [
+        (lib.mkIf config.stylix.enable {
+          stylix.targets = {
+            plymouth.enable = false;
+          };
+        })
+
+      ];
+
     };
 
   flake.homeModules.default =
     {
+      lib,
+      config,
       ...
     }:
     {
