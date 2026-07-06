@@ -83,7 +83,7 @@
                       "useCustomFont": false
                     },
                     {
-                      "colorizeIcons": true,
+                      "colorizeIcons": false,
                       "hideMode": "hidden",
                       "id": "ActiveWindow",
                       "maxWidth": 145,
