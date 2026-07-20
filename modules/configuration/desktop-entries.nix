@@ -229,7 +229,7 @@
           '';
         };
 
-        "com.github.th_ch.youtube_music" = lib.mkIf config.stylix.targets.desktop-entries-stylix.entries.pear-desktop.enable {
+        "com.github.th-ch.youtube-music" = lib.mkIf config.stylix.targets.desktop-entries-stylix.entries.pear-desktop.enable {
           name = "Youtube Music";
           type = "Application";
           terminal = false;
