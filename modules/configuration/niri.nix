@@ -16,6 +16,8 @@
 
       config = lib.mkIf (config.stylix.enable && config.stylix.targets.omniri-niri.enable) {
 
+        home.pointerCursor.enable = true;
+
         home.file = {
 
           ".config/niri-stylix/colors.kdl".text = ''
