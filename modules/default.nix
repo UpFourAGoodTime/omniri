@@ -37,6 +37,7 @@
         self.homeModules.niri-stylix
         self.homeModules.noctalia-stylix
         self.homeModules.alacritty-stylix
+        self.homeModules.desktop-entries-stylix
       ];
 
       config = lib.mkMerge [
