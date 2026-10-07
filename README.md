@@ -13,6 +13,10 @@ Greeter: Noctalia Greeter - A greetd greeter, tightly coupled with Noctalia.
 
 https://github.com/noctalia-dev/noctalia-greeter
 
+Terminal: Alacritty - A cross-platform, OpenGL terminal emulator.
+
+https://alacritty.org/
+
 polkit_gnome - Looking to replace / Find a decent way to setup Noctalia's polkit auth agent.
 
 https://gitlab.gnome.org/Archive/policykit-gnome
