@@ -76,7 +76,9 @@
       };
     };
 
-    security.pam.services.greetd.fprintAuth = false;
+    # Disable fingerprint login at the greeter for security
+
+    security.pam.services.login.fprintAuth = false;
 
     services.displayManager.noctalia-greeter = {
       enable = true;
