@@ -17,6 +17,6 @@ Terminal: Alacritty - A cross-platform, OpenGL terminal emulator.
 
 https://alacritty.org/
 
-polkit_gnome - Looking to replace / Find a decent way to setup Noctalia's polkit auth agent.
+Greeter: polkit_gnome - Looking to replace / Find a decent way to setup Noctalia's polkit auth agent.
 
 https://gitlab.gnome.org/Archive/policykit-gnome
