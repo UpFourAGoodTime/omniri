@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="868"
+   height="868"
+   viewBox="0 0 1024 1024"
+   fill="none"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.95967742"
+     inkscape:cx="433.47899"
+     inkscape:cy="434"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11" />
+  <circle
+     cx="512"
+     cy="512"
+     r="410"
+     fill="url(#paint0_linear_18_2)"
+     id="circle1"
+     style="fill:url(#paint0_linear_18_2);filter:url(#filter0_d_18_2)"
+     transform="matrix(1.1799068,0,0,1.1795591,-92.03273,-106.16032)" />
+  <circle
+     cx="512"
+     cy="512"
+     r="402"
+     stroke="url(#paint1_radial_18_2)"
+     stroke-opacity="0.5"
+     stroke-width="16"
+     id="circle2"
+     style="display:none;stroke:url(#paint1_radial_18_2);filter:url(#filter0_d_18_2)"
+     transform="matrix(1.1799068,0,0,1.1795591,-92.03273,-106.16032)"
+     sodipodi:insensitive="true" />
+  <path
+     d="m 657.25024,503.81509 c 6.28193,3.64212 6.28193,12.7438 0,16.38472 L 376.31232,683.02768 c -6.28193,3.64092 -14.13524,-0.90934 -14.13524,-8.19236 V 349.17959 c 0,-7.16832 7.60947,-11.69138 13.83958,-8.35791 l 0.29566,0.16554 z"
+     fill="url(#paint2_linear_18_2)"
+     stroke="url(#paint3_linear_18_2)"
+     stroke-width="9.44172"
+     stroke-linejoin="round"
+     id="path2"
+     style="fill:url(#paint2_linear_18_2);stroke:url(#paint3_linear_18_2)" />
+  <defs
+     id="defs11">
+    <filter
+       id="filter0_d_18_2"
+       x="78"
+       y="90"
+       width="868"
+       height="868"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood2" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix2" />
+      <feOffset
+         dy="12"
+         id="feOffset2" />
+      <feGaussianBlur
+         stdDeviation="12"
+         id="feGaussianBlur2" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite2" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0.866667 0 0 0 0 0.141176 0 0 0 0 0.462745 0 0 0 0.4 0"
+         id="feColorMatrix3" />
+      <feBlend
+         mode="normal"
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_18_2"
+         id="feBlend3" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_dropShadow_18_2"
+         result="shape"
+         id="feBlend4" />
+    </filter>
+    <linearGradient
+       id="paint0_linear_18_2"
+       x1="102"
+       y1="102"
+       x2="922"
+       y2="922"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FF632F"
+         id="stop4"
+         offset="0"
+         style="stop-color:#2fc4ff;stop-opacity:1;" />
+      <stop
+         offset="1"
+         stop-color="#DC148C"
+         id="stop5"
+         style="stop-color:#ea1cc3;stop-opacity:1;" />
+    </linearGradient>
+    <radialGradient
+       id="paint1_radial_18_2"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(410.00031,410.00031,-410.00031,410.00031,512,512)">
+      <stop
+         offset="0.68"
+         stop-color="white"
+         stop-opacity="0"
+         id="stop6" />
+      <stop
+         offset="0.72"
+         stop-color="white"
+         id="stop7" />
+    </radialGradient>
+    <linearGradient
+       id="paint2_linear_18_2"
+       x1="512"
+       y1="329"
+       x2="512"
+       y2="695"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1779368,0,0,1.1824998,-137.85707,-93.432445)">
+      <stop
+         stop-color="white"
+         id="stop8" />
+      <stop
+         offset="1"
+         stop-color="white"
+         stop-opacity="0.4"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       id="paint3_linear_18_2"
+       x1="512"
+       y1="329"
+       x2="512"
+       y2="695"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1779368,0,0,1.1824998,-137.85707,-93.432445)">
+      <stop
+         stop-color="white"
+         stop-opacity="0"
+         id="stop10" />
+      <stop
+         offset="1"
+         stop-color="white"
+         stop-opacity="0.5"
+         id="stop11" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,23 @@
+      # spawn-at-startup "${lib.getExe self.packages.${pkgs.stdenv.hostPlatform.system}.omniri-Noctalia}"
+      # spawn-at-startup "${
+      #   lib.getExe self.packages.${pkgs.stdenv.hostPlatform.system}.omniri-Noctalia
+      # }" "ipc" "call" "wallpaper" "set" "${
+      #   self.packages.${pkgs.stdenv.hostPlatform.system}.wallpapers
+      # }/share/wallpapers/pb293788xdcqhv8yhjan3w238dw724fr-files/wallhaven-k81776_2880x1620.png" "eDP-1"
+
+
+            XF86AudioRaiseVolume allow-when-locked=true { spawn "${
+              lib.getExe self.packages.${pkgs.stdenv.hostPlatform.system}.omniri-Noctalia
+            }" "ipc" "call" "volume" "increase"; }
+            XF86AudioLowerVolume allow-when-locked=true { spawn "${
+              lib.getExe self.packages.${pkgs.stdenv.hostPlatform.system}.omniri-Noctalia
+            }" "ipc" "call" "volume" "decrease"; }
+            XF86AudioMute allow-when-locked=true { spawn "${
+              lib.getExe self.packages.${pkgs.stdenv.hostPlatform.system}.omniri-Noctalia
+            }" "ipc" "call" "volume" "muteOutput"; }
+            XF86MonBrightnessUp allow-when-locked=true { spawn "${
+              lib.getExe self.packages.${pkgs.stdenv.hostPlatform.system}.omniri-Noctalia
+            }" "ipc" "call" "brightness" "increase"; }
+            XF86MonBrightnessDown allow-when-locked=true { spawn "${
+              lib.getExe self.packages.${pkgs.stdenv.hostPlatform.system}.omniri-Noctalia
+            }" "ipc" "call" "brightness" "decrease"; }
