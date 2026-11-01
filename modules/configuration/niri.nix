@@ -57,19 +57,19 @@
 
     security.polkit.enable = lib.mkDefault true;
 
-    # systemd.user.services.polkit-gnome-authentication-agent-1 = {
-    #   description = "polkit-gnome-authentication-agent-1";
-    #   wantedBy = [ "graphical-session.target" ];
-    #   wants = [ "graphical-session.target" ];
-    #   after = [ "graphical-session.target" ];
-    #   serviceConfig = {
-    #     Type = "simple";
-    #     ExecStart = "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
-    #     Restart = "on-failure";
-    #     RestartSec = 1;
-    #     TimeoutStopSec = 10;
-    #   };
-    # };
+    systemd.user.services.polkit-gnome-authentication-agent-1 = {
+      description = "polkit-gnome-authentication-agent-1";
+      wantedBy = [ "graphical-session.target" ];
+      wants = [ "graphical-session.target" ];
+      after = [ "graphical-session.target" ];
+      serviceConfig = {
+        Type = "simple";
+        ExecStart = "${pkgs.polkit_gnome}/libexec/polkit-gnome-authentication-agent-1";
+        Restart = "on-failure";
+        RestartSec = 1;
+        TimeoutStopSec = 10;
+      };
+    };
 
     programs.niri = {
       enable = true;
@@ -85,25 +85,10 @@
     pkgs,
     ...
   }:
-  let
-    noctalia-fix-breakpad = pkgs.noctalia-shell.override {
-          noctalia-qs = pkgs.noctalia-qs.override {
-            breakpad = pkgs.breakpad.overrideAttrs {
-              patches = [
-                ./fix-breakpad.patch # local copy of pr patch
-              ];
-            };
-          };
-        };
-  in
   {
-    # imports = [
-    #   inputs.niri-flake.homeModules.config
-    # ];
 
     home.packages = [
       pkgs.bibata-cursors
-      noctalia-fix-breakpad
     ];
 
     programs.niri = {
